@@ -10,18 +10,18 @@ const USER_CONFIG = {
 USE_PASSAGE: 'push-plus',
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx012d4aebeb9ff0b0',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: 'f14d83198c5047bd4f5194adf755a29f',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '山西',
+  CITY: '吕梁',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '测试接收人',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'edb7392a53e942ef9cb08e8936d3890d',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -57,9 +57,9 @@ USE_PASSAGE: 'push-plus',
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: 'test001',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oqW3B7WZDh4hE3vhMgWkHeqWfuD0',
     }
   ],
 
