@@ -7,63 +7,15 @@
  */
 const USER_CONFIG = {
   // 请将以下代码按照图示粘贴到对应位置
-USE_PASSAGE: 'push-plus',
+USE_PASSAGE: 'wechat-test',
 
-  // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx012d4aebeb9ff0b0',
-
-  // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'f14d83198c5047bd4f5194adf755a29f',
-
-  PROVINCE: '山西',
-  CITY: '吕梁',
-
-  USERS: [
-    {
-      // 想要发送的人的名字
-      name: '测试接收人',
-      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'edb7392a53e942ef9cb08e8936d3890d',
-      // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
-      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
-      horoscopeDate: '12-27',
-      festivals: [
-        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-        {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
-        },
-        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
-        },
-        {
-          type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
-        },
-      ],
-      // 我们在一起已经有xxxx天了的配置
-      customizedDateList: [
-        // 在一起的日子
-        { keyword: 'love_day', date: '2022-09-08' },
-        // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
-      ],
-    },
-  ],
-
-
-  // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: '0002',
-
-  CALLBACK_USERS: [
-    {
-      name: '推送用户',
-      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'oqW3B7WZDh4hE3vhMgWkHeqWfuD0',
-    }
-  ],
-
+{"APP_ID":"wx012d4aebeb9ff0b0",
+  "APP_SECRET":"f14d83198c5047bd4f5194adf755a29f",
+  "IS_SHOW_COLOR":false,
+  "CALLBACK_TEMPLATE_ID":"0002","CALLBACK_USERS":[{"name":"自己","id":"oqW3B7WZDh4hE3vhMgWkHeqWfuD0"}],"USERS":[{"name":"测试接收人","id":"oqW3B7QZYoYK5U-jeUOXED7KzAho","useTemplateId":"0001","province":"山西","city":"吕梁","horoscopeDate":"06-01","horoscopeDateType":"本月","openUrl":"https://shuangxunian.github.io/","festivals":[{"type":"*生日","name":"阴历生日","date":"06-01","year":"2025"}],"customizedDateList":[]}],"SWITCH":{"weather":true,"holidaytts":true,"CIBA":true,"oneTalk":false,"earthyLoveWords":false,"momentCopyrighting":false,"poisonChickenSoup":false,"poetry":false,"horoscope":false,"birthdayMessage":true}
 }
+
+
 
 module.exports = USER_CONFIG
 
