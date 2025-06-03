@@ -22,11 +22,37 @@ const USER_CONFIG = {
 //   ],"SWITCH":{"weather":true,"holidaytts":true,"CIBA":false,"oneTalk":true,"earthyLoveWords":false,"momentCopyrighting":false,"poisonChickenSoup":false,"poetry":false,"horoscope":true,"birthdayMessage":true}
 
 //方糖
-   USE_PASSAGE: 'push-plus',
-  "USERS":[
-   {"name":"自己","id":"4f5b174976394fbb99078c6e03dfcf91","useTemplateId":"0001","province":"山西","city":"吕梁","horoscopeDate":"06-09","horoscopeDateType":"今日","openUrl":"https://shuangxunian.github.io/","festivals":[{"type":"节日","name":"国庆节","date":"10-01","year":"2025"},{"type":"节日","name":"圣诞节","date":"12-25","year":"2025"}],"customizedDateList":[]
-                                                                },
-   ],"SWITCH":{"weather":true,"holidaytts":true,"CIBA":false,"oneTalk":true,"earthyLoveWords":false,"momentCopyrighting":false,"poisonChickenSoup":false,"poetry":false,"horoscope":true,"birthdayMessage":true}
-}
-module.exports = USER_CONFIG
+  USE_PASSAGE: 'push-plus',
+  "USERS": [
+    {
+      "name": "自己",
+      "id": "4f5b174976394fbb99078c6e03dfcf91",
+      "useTemplateId": "0001",
+      "province": "山西",
+      "city": "吕梁",
+      "horoscopeDate": "06-09",
+      "horoscopeDateType": "今日",
+      "openUrl": "https://shuangxunian.github.io/",
+      "festivals": [
+        {"type": "节日", "name": "国庆节", "date": "10-01", "year": "2025"},
+        {"type": "节日", "name": "圣诞节", "date": "12-25", "year": "2025"}
+      ],
+      "customizedDateList": []
+    }
+  ],
+  "SWITCH": {
+    "weather": true,
+    "holidaytts": true,
+    "CIBA": false,
+    "oneTalk": true,
+    "earthyLoveWords": false,
+    "momentCopyrighting": false,
+    "poisonChickenSoup": false,
+    "poetry": false,
+    "horoscope": true,
+    "birthdayMessage": true
+  }
+};
+
+module.exports = USER_CONFIG;
 
