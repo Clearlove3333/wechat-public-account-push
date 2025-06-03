@@ -12,21 +12,16 @@
 
 const TEMPLATE_CONFIG = [
   {
-     id:'0001',
-    title:'亲爱的',
-    desc：
-  // 👇 使用反引号(`)包裹模板字符串
-  `🗓️{{date.DATA}} 城市：{{city.DATA}} 天气☁️：{{weather.DATA}} 温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} 风向：{{wind_direction.DATA}} 风级：{{wind_scale.DATA}} 温馨提示：{{notice.DATA}} 值得纪念：{{birthday_message.DATA}} 每日一句😋 中文：{{note_ch.DATA}} English：{{note_en.DATA}}`
-
- },
+    id: '0001',
+    title: '亲爱的',
+    desc: `🗓️{{date.DATA}} 城市：{{city.DATA}} 天气☁️：{{weather.DATA}} 温度🌡️: {{min_temperature.DATA}}--{{max_temperature.DATA}} 风向：{{wind_direction.DATA}} 风级：{{wind_scale.DATA}} 温馨提示：{{notice.DATA}} 值得纪念：{{birthday_message.DATA}} 每日一句😋 中文：{{note_ch.DATA}} English：{{note_en.DATA}}`
+  },
   {
-  // 👇 第二个元素是对象，需修复语法问题
-  {
-     id:'0002',
-    title:'推送结果',
-    desc：
-    serverInfo: `服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}} 共推送 {{need_post_num.DATA}} 人 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}} 成功用户: {{success_post_ids.DATA}} 失败用户: {{fail_post_ids.DATA}}`
-  }
+    id: '0002',
+    title: '推送结果',
+    desc: {
+      serverInfo: `服务器信息：{{post_time_zone.DATA}} {{post_time.DATA}} 共推送 {{need_post_num.DATA}} 人 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}} 成功用户: {{success_post_ids.DATA}} 失败用户: {{fail_post_ids.DATA}}`
+    }
   }
 ];
 
