@@ -9,7 +9,8 @@ const USER_CONFIG = {
   // 请将以下代码按照图示粘贴到对应位置
 
 
-USE_PASSAGE: 'wechat-test',
+// USE_PASSAGE: 'wechat-test',
+  USE_PASSAGE: 'push-plus',
 "APP_ID":"","APP_SECRET":"","IS_SHOW_COLOR":false,
   "CALLBACK_TEMPLATE_ID":"hjFnaMHCZx48oFKFVr0ccmK5jxDJCC1NCfDFWdqbfBg",
   "CALLBACK_USERS":[
