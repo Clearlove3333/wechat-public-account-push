@@ -23,9 +23,9 @@ const TEMPLATE_CONFIG = [
     风级：{{wind_scale.DATA}} 
     温馨提示：{{notice.DATA}} 
     {{comprehensive_horoscope.DATA}} 
-    爱情运势：{{love_horoscope.DATA}}
-    财富运势：{{wealth_horoscope.DATA}}
-    健康运势：{{healthy_horoscope.DATA}}
+    {{love_horoscope.DATA}}
+    {{wealth_horoscope.DATA}}
+    {{healthy_horoscope.DATA}}
     每日一句😋 
     中文：{{note_ch.DATA}} 
     English：{{note_en.DATA}}`
