@@ -22,8 +22,8 @@ const TEMPLATE_CONFIG = [
     风向：{{wind_direction.DATA}} 
     风级：{{wind_scale.DATA}} 
     温馨提示：{{notice.DATA}} 
-    // 纪念日：{{birthday_message.DATA}} 
     星座运势：{{comprehensive_horoscope.DATA}} 
+    爱情运势：{{love_horoscope.DATA}}
     每日一句😋 
     中文：{{note_ch.DATA}} 
     English：{{note_en.DATA}}`
