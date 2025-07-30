@@ -22,7 +22,7 @@ const TEMPLATE_CONFIG = [
     风向：{{wind_direction.DATA}} 
     风级：{{wind_scale.DATA}} 
     温馨提示：{{notice.DATA}} 
-    星座运势：{{comprehensive_horoscope.DATA}} 
+    {{comprehensive_horoscope.DATA}} 
     爱情运势：{{love_horoscope.DATA}}
     财富运势：{{wealth_horoscope.DATA}}
     健康运势：{{healthy_horoscope.DATA}}
