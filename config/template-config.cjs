@@ -24,6 +24,8 @@ const TEMPLATE_CONFIG = [
     温馨提示：{{notice.DATA}} 
     星座运势：{{comprehensive_horoscope.DATA}} 
     爱情运势：{{love_horoscope.DATA}}
+    财富运势：{{wealth_horoscope.DATA}}
+    健康运势：{{healthy_horoscope.DATA}}
     每日一句😋 
     中文：{{note_ch.DATA}} 
     English：{{note_en.DATA}}`
