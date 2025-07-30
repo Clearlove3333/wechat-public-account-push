@@ -34,8 +34,8 @@ const USER_CONFIG = {
       "horoscopeDateType": "今日",
       "openUrl": "https://shuangxunian.github.io/",
       "festivals": [
-        {"type": "纪念日", "name": "我们认识的第一天", "date": "07-29", "year": "2025"},
-        {"type": "节日", "name": "圣诞节", "date": "12-25", "year": "2025"}
+        {"type": "节日", "name": "我们认识的第一天", "date": "07-29", "year": "2025"}
+        // {"type": "节日", "name": "圣诞节", "date": "12-25", "year": "2025"}
       ],
       "customizedDateList": []
     }
