@@ -28,13 +28,13 @@ const USER_CONFIG = {
       "name": "自己",
       "id": "4f5b174976394fbb99078c6e03dfcf91",
       "useTemplateId": "0001",
-      "province": "上海",
-      "city": "虹口区",
+      "province": "河北省",
+      "city": "邯郸市",
       "horoscopeDate": "06-09",
       "horoscopeDateType": "今日",
       "openUrl": "https://shuangxunian.github.io/",
       "festivals": [
-        {"type": "节日", "name": "国庆节", "date": "10-01", "year": "2025"},
+        {"type": "纪念日", "name": "我们认识的第一天", "date": "07-29", "year": "2025"},
         {"type": "节日", "name": "圣诞节", "date": "12-25", "year": "2025"}
       ],
       "customizedDateList": []
