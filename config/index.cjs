@@ -30,7 +30,7 @@ const USER_CONFIG = {
       "useTemplateId": "0001",
       "province": "河北省",
       "city": "邯郸市",
-      "horoscopeDate": "06-09",
+      "horoscopeDate": "10-28",
       "horoscopeDateType": "今日",
       "openUrl": "https://shuangxunian.github.io/",
       "festivals": [
