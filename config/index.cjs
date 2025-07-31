@@ -25,17 +25,17 @@ const USER_CONFIG = {
   USE_PASSAGE: 'push-plus',
   "USERS": [
     {
-      "name": "自己",
-      "id": "4f5b174976394fbb99078c6e03dfcf91",
+      "name": "酸菜味的小美🐟",
+      "id": "3ec8da619b464af1b3f811b6edad1d32",
       "useTemplateId": "0001",
       "province": "河北省",
-      "city": "邯郸市",
+      "city": "唐山市",
       "horoscopeDate": "10-28",
       "horoscopeDateType": "今日",
       "openUrl": "https://shuangxunian.github.io/",
       "festivals": [
         {"type": "节日", "name": "我们认识的第一天", "date": "07-29", "year": "2025"}
-        // {"type": "节日", "name": "圣诞节", "date": "12-25", "year": "2025"}
+        
       ],
       "customizedDateList": [
         {"keyword": "love_day",date:"2025-07-30"}
