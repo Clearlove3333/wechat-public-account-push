@@ -13,7 +13,7 @@
 const TEMPLATE_CONFIG = [
   {
     id: '0001',
-    title: '早上好',
+    title: '早上好！酸菜味的小美🐟',
     desc: `🗓️{{date.DATA}} 
     纪念日：今天是我们认识的第{{love_day.DATA}}天
     城市：{{city.DATA}} 
