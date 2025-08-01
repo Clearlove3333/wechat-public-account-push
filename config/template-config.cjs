@@ -22,6 +22,7 @@ const TEMPLATE_CONFIG = [
     风向：{{wind_direction.DATA}} 
     风级：{{wind_scale.DATA}} 
     温馨提示：{{notice.DATA}} 
+    课表: {{courseSchedule.DATA}}
     {{comprehensive_horoscope.DATA}} 
     {{love_horoscope.DATA}}
     {{wealth_horoscope.DATA}}
