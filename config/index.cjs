@@ -132,13 +132,4 @@ const USER_CONFIG = {
   ]
 };
 module.exports = USER_CONFIG;
-  "CALLBACK_TEMPLATE_ID": "0002",
-  "CALLBACK_USERS": [
-    {
-      "name": "自己",
-      "id": "4f5b174976394fbb99078c6e03dfcf91"
-    }
-  ]
-};
-module.exports = USER_CONFIG;
 
