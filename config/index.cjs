@@ -26,7 +26,7 @@ const USER_CONFIG = {
   "USERS": [
     {
       "name": "酸菜味的小美🐟",
-      "id": "958e6621e7ef4187a74fe87e06789c46",
+      "id": "4f5b174976394fbb99078c6e03dfcf91",
       "useTemplateId": "0001",
       "province": "河北省",
       "city": "唐山市",
