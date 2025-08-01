@@ -23,7 +23,6 @@ const TEMPLATE_CONFIG = [
     风级：{{wind_scale.DATA}} 
     温馨提示：{{notice.DATA}} 
     课表: {{course_schedule.DATA}}
-    {{comprehensive_horoscope.DATA}} 
     {{love_horoscope.DATA}}
     {{wealth_horoscope.DATA}}
     {{healthy_horoscope.DATA}}
