@@ -127,8 +127,7 @@ const USER_CONFIG = {
               '09:50-11:25 高等物理'
             ]
           ]
-    }
-  ],
+    },
   "SWITCH": {
     "weather": true,
     "holidaytts": true,
