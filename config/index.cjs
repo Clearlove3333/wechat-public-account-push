@@ -130,6 +130,6 @@ const USER_CONFIG = {
       "id": "4f5b174976394fbb99078c6e03dfcf91"
     }
   ]
-}
+};
 module.exports = USER_CONFIG;
 
