@@ -106,8 +106,8 @@ const USER_CONFIG = {
         ]
      ]
   }
-}
-  ],
+},
+
   "SWITCH": {
     "weather": true,
     "holidaytts": true,
